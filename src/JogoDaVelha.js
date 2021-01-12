@@ -70,7 +70,7 @@ function JogoDaVelha() {
           key={index}
           className={`cell ${item}`}
           onClick={() => handleCellClick(index)}
-          >{item}
+          >{item ? item : index}
             </div>
         ))}
       </div>
